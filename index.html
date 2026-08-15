@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinha Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Cozinha Fácil</h1>
+    <p>Receitas simples para o dia a dia</p>
+</header>
+
+<main>
+    <article class="receita" aria-labelledby="titulo-receita">
+        <h2 id="titulo-receita">Bolo de chocolate</h2>
+        <img src="bolo.jpg"
+     alt="Bolo de chocolate coberto com calda">
+
+<p>Tempo de preparo: 40 minutos</p>
+
+
+<button id="botao-ingredientes"
+        aria-expanded="false"
+        aria-controls="lista-ingredientes">
+    Mostrar ingredientes
+</button>
+
+<ul id="lista-ingredientes" hidden>
+    <li>2 xícaras de farinha</li>
+    <li>1 xícara de açúcar</li>
+    <li>3 colheres de chocolate</li>
+</ul>
+
+<div class="acoes" aria-label="Ações da receita">
+    <button id="salvar">Salvar receita</button>
+    <button id="compartilhar">Compartilhar receita</button>
+    <button id="proxima" aria-label="Próxima receita">→</button>
+</div>
+
+<p id="mensagem" class="somente-leitor" aria-live="polite"></p>
+
+</article>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

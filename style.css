@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #1f2933;
+    background: #f4f6f8;
+}
+
+header {
+    padding: 24px;
+    color: white;
+    text-align: center;
+    background: #862f23;
+}
+
+main {
+    max-width: 720px;
+    margin: 24px auto;
+    padding: 0 10px;
+}
+
+.receita {
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.receita img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.acoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+button {
+    min-height: 44px;
+    padding: 10px 16px;
+    color: white;
+    background: #8b2f23;
+    border: 0;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
